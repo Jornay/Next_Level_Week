@@ -1,0 +1,53 @@
+{% extends "layout.html" %}}
+{% set pageId = "page-search-results" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="./styles/search-results.css">
+{% endblock styles %}
+
+{% block title %}
+    <title>Resultado da Pesquisa</title>
+{% endblock title %}
+
+{#<div id="page-home">#}
+
+{% block content %}
+
+    {% include "partials/page-header.html" %}
+
+    <main>
+
+        <h4>
+            <strong>2 Pontos</strong>
+            Encontrados
+        </h4>
+
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1174&q=80" alt="Colectoria">
+                <h1>Colectoria</h1>
+                <h3>Resíduos eletrônicos/Lâmpadas</h3>
+                <p>
+                    Rio do Sul, Santa Catarina
+                    <br>
+                    Guilherme Gemballa, Jardim América
+                    <br>Nº 206
+                </p>
+
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1542739674-b449a8938b59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="Colectoria">
+                <h1>PaperSider</h1>
+                <h3>Papeis e Papelão</h3>
+                <p>
+                    Rio do Sul, Santa Catarina
+                    <br>
+                    Guilherme Gemballa, Jardim América
+                    <br>Nº 206
+                </p>
+
+            </div>
+        </div>
+
+    </main>
+{% endblock content %}
