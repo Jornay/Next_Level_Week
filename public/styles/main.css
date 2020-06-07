@@ -1,3 +1,20 @@
+
+/*Criação de um Pseudo elemento, onde ele será um background criados pelo css (ELE NÃO EXISTE VIA HTML)
+//Os códigos abaixo irão moldar o background branco adicionado para o desejado */
+
+body::after {
+    content:"";
+    position:absolute;
+    background: white;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 8rem;
+    z-index: -1;
+}
+/*----------------------------------------------------------------------*/
+
 :root{
     --title-color: #322153;
     --primary-color: #34CB79;

@@ -1,18 +1,18 @@
 
-/*Criação de um Pseudo elemento, onde ele será um background criados pelo css (ELE NÃO EXISTE VIA HTML)
-//Os códigos abaixo irão moldar o background branco adicionado para o desejado */
-
+body{
+    background: white;
+}
 body::after {
     content:"";
-    position:fixed;
-    background: white;
-    top: 260px;
+    position:absolute;
+    background: #f0f0f0f5;
+    top: 0;
     right: 0;
     left: 0;
     bottom: 0;
+    height: 16rem;
     z-index: -1;
 }
-/*----------------------------------------------------------------------*/
 
 #page-search-results{
     width: 90%;

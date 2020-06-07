@@ -75,7 +75,7 @@ form .field-group{
     display:flex;
 }
 form input ,form select{
-    background-color: f0f0f5;
+    background-color: #f0f0f5;
     
     border:0;
 
