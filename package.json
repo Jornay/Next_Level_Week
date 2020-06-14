@@ -4,7 +4,8 @@
   "description": "This project was done during the Next Level Week broadcast by rocketseat.",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
